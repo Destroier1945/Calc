@@ -31,6 +31,19 @@ class MainActivity : AppCompatActivity() {
             findViewById(R.id.button8),
             findViewById(R.id.button9),
         )
+
+        for (button in numberButtons){
+            button.setOnClickListener{
+                val number = button.text.toString()
+                if(!isOperatorClicked){
+                    display.text = number
+                    isOperatorClicked = false
+                }else{
+                    display.text = display.text.toString() + number
+                }
+            }
+        }
+
         val operatorButtons = listOf<Button>(
             findViewById(R.id.buttonDivider),
             findViewById(R.id.buttonDot),
