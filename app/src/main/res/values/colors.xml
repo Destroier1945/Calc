@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cor de fundo dos botões -->
+    <color name="buttonBackground">#F1F1F1</color> <!-- Cinza claro -->
+
+    <!-- Cor do texto nos botões -->
+    <color name="buttonText">#000000</color> <!-- Preto -->
+
+    <!-- Cor de destaque quando um botão é pressionado -->
+    <color name="buttonPressed">#D5D5D5</color> <!-- Cinza médio -->
+
+    <!-- Cor de fundo do visor -->
+    <color name="displayBackground">#E0E0E0</color> <!-- Cinza claro -->
+
+    <!-- Cor do texto no visor -->
+    <color name="displayText">#000000</color> <!-- Preto -->
+</resources>
